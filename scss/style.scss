@@ -84,7 +84,7 @@
   justify-content: space-between;
   box-shadow: 0 1.5rem 3rem rgba(black, 0.2),
     0 0.5rem 2rem -1rem rgba(black, 0.1);
-  // animation: 1s ease 0.3s backwards slide-down, 0.8s ease 5s bounce;
+  animation: 1s ease 0.3s backwards slide-down, 0.8s ease 5s bounce;
 
   @include tablet {
     margin-right: unset;
@@ -165,51 +165,47 @@
     margin-top: 0.5rem;
   }
 
-  // div {
-  //   &:nth-child(1) {
-  //     transform-origin: bottom left;
-  //     animation: 0.5s ease 1s backwards pop;
-  //   }
-  //   &:nth-child(2) {
-  //     transform-origin: bottom left;
-  //     animation: 0.5s ease 1.5s backwards pop;
-  //   }
-  //   &:nth-child(3) {
-  //     transform-origin: bottom right;
-  //     animation: 0.5s ease 2.5s backwards pop;
-  //   }
-  //   &:nth-child(4) {
-  //     transform-origin: bottom right;
-  //     animation: 0.5s ease 3s backwards pop;
-  //   }
-  //   &:nth-child(5) {
-  //     transform-origin: bottom right;
-  //     animation: 0.5s ease 3.3s backwards pop;
-  //     margin-bottom: 0.5rem;
-  //   }
-  //   &:nth-child(6) {
-  //     transform-origin: bottom left;
-  //     animation: 0.5s ease 4s backwards pop;
-  //   }
-  //   &:nth-child(7) {
-  //     transform-origin: bottom left;
-  //     animation: 0.5s ease 4.5s backwards pop;
-  //   }
-  //   &:nth-child(8) {
-  //     transform-origin: bottom left;
-  //     animation: 0.5s ease 4.8s backwards pop;
-  //   }
-  // }
+  div {
+    &:nth-child(1) {
+      transform-origin: bottom left;
+      animation: 0.5s ease 1s backwards pop;
+    }
+    &:nth-child(2) {
+      transform-origin: bottom left;
+      animation: 0.5s ease 1.5s backwards pop;
+    }
+    &:nth-child(3) {
+      transform-origin: bottom right;
+      animation: 0.5s ease 2.5s backwards pop;
+    }
+    &:nth-child(4) {
+      transform-origin: bottom right;
+      animation: 0.5s ease 3s backwards pop;
+    }
+    &:nth-child(5) {
+      transform-origin: bottom right;
+      animation: 0.5s ease 3.3s backwards pop;
+      margin-bottom: 0.5rem;
+    }
+    &:nth-child(6) {
+      transform-origin: bottom left;
+      animation: 0.5s ease 4s backwards pop;
+    }
+    &:nth-child(7) {
+      transform-origin: bottom left;
+      animation: 0.5s ease 4.5s backwards pop;
+    }
+    &:nth-child(8) {
+      transform-origin: bottom left;
+      animation: 0.5s ease 4.8s backwards pop;
+    }
+  }
 
   .msg {
     max-width: 8rem;
     width: fit-content;
     padding: 0.375rem 0.5rem;
     border-radius: 0.675rem;
-
-    &:nth-child(5) {
-      margin-bottom: 0.5rem;
-    }
 
     &-left {
       color: $Moderate-Violet;
@@ -299,7 +295,7 @@
   align-self: center;
   width: min(450px, 100%);
   margin-left: 1rem;
-  // animation: 1s ease 5s backwards fade-in;
+  animation: 1s ease 5s backwards fade-in;
 
   @include tablet {
     margin-left: unset;
