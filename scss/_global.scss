@@ -27,4 +27,5 @@ p {
 .msg p {
   font-size: 0.5rem;
   line-height: 1.375;
+  -webkit-text-size-adjust: none;
 }
