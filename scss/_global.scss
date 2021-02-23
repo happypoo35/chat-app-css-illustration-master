@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: $Dark-Grayish-Violet;
+  background: $Bg;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: $Very-Dark-Desaturated-Violet;
+}
+
+p {
+  line-height: 1.75;
+}
+
+.msg p {
+  font-size: 0.5rem;
+  line-height: 1.375;
+}
